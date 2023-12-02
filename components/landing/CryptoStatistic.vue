@@ -7,7 +7,8 @@
         class="px-3 py-1 text-sm font-medium text-blue-500 flex items-center space-x-1 rounded-md hover:bg-blue-50 transition duration-300"
       >
         <span>More</span>
-        <ChevronRightIcon :size="16" />
+        <!-- <ChevronRightIcon :size="16" /> -->
+        <Icon name="uil:github" />
       </button>
     </div>
     <div class="flex flex-col">
@@ -31,8 +32,9 @@
                 </td>
                 <td class="py-4 whitespace-nowrap">
                   <div class="flex items-center">
-                    <PlusThickIcon v-if="data.increase" :size="14" class="text-emerald-500" />
-                    <MinusThickIcon v-else :size="14" class="text-red-500" />
+                    <!-- <PlusThickIcon v-if="data.increase" :size="14" class="text-emerald-500" /> -->
+                    <!-- <MinusThickIcon v-else :size="14" class="text-red-500" /> -->
+                    <Icon name="uil:github" />
                     <span>${{ data.price }}</span>
                   </div>
                 </td>

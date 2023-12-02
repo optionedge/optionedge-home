@@ -32,7 +32,8 @@
               class="max-w-full px-6 py-4 bg-inherit text-gradient border border-[#0c66ee] flex items-center justify-center"
             >
               <span>Download App</span>
-              <ChevronDownIcon :size="20" class="mt-1 text-[#0c66ee]" />
+              <!-- <ChevronDownIcon :size="20" class="mt-1 text-[#0c66ee]" /> -->
+              <Icon name="uil:github" />
             </BaseButton>
           </div>
         </div>
@@ -307,7 +308,8 @@
         class="px-6 py-3 flex items-center space-x-2 bg-[#FAFAFA] hover:bg-gray-100 hover:shadow-md border border-[#DDDDDD] rounded-md text-gray-700"
       >
         <span>Back to top</span>
-        <ArrowUpIcon :size="20" />
+        <!-- <ArrowUpIcon :size="20" /> -->
+        <Icon name="uil:github" />
       </a>
     </div>
   </div>
